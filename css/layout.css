@@ -1,5 +1,5 @@
 /********** Fixes **********/
-
+/*test*/
 * {
   margin:0;
   padding:0;
@@ -23,5 +23,24 @@
 }
 
 /* Positioning Classes */
+body {
+  margin: 0 auto;
+}
+.col-1 {
+  width: 32%;
 
+}
+.col-2 {
+  width: 64%;
+}
+.col-3 {
+  width: 31%;
 
+}
+.col-4{
+  width: 31.33%;
+}
+[class*="col"] {
+  float: left;
+  margin: 20px 1% ;
+}
